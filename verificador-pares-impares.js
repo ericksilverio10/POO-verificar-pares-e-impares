@@ -30,7 +30,7 @@ class VerificarNumero{
         console.log("PRONTO!");
     }
 }
-const segundoNumero = new VerificarNumero(3);
+const segundoNumero = new VerificarNumero(10);
 segundoNumero.verificarPares(10)
 // Os 10 números pares consecutivos de 3 são:
 // 4

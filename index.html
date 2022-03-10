@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador Pares e Impares</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    <div class="container">
+        <div class="first-step">
+            <p>Clique no botão para começar</p>
+            <button onclick="go(1,2)">Iniciar</button>
+        </div>
+        <div class="second-step">
+            <h3>Vamos lá!</h3>
+            <hr>
+            <label for="num">Digite algum número:</label>
+            <input id="num" type="number" placeholder="Ex: 16" >
+            <br><br>
+            <p>Quero verificar:</p>
+            <label for="pares">Pares</label><input class="tipo" required id="pares" type="radio" value="Pares" name="tipo">
+            <label for="impares">Ímpares</label><input class="tipo" required id="impares" type="radio" value="Impares" name="tipo"> <br><br>
+            <label for="qtd">Digite a quantidade:</label>
+            <input id="qtd" type="number" placeholder="Ex: 8" >
+            <br><br>
+            <button type="submit" onclick="validate()">Verificar!</button>
+        </div>
+        <div class="final-step">
+            <h3>Resultado:</h3>
+            <p class="resultado">...</p>
+            <button type="submit" class= "botoes-finais" onclick="go(3,2)">Repetir</button><button class= "botoes-finais" onclick="go(3,1)">Finalizar</button>
+        </div>
+    </div>
+    
+</body>
+</html>
