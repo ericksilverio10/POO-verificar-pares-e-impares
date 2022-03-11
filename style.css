@@ -34,7 +34,8 @@ button{
     
 }
 button:hover{
-
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, rgb(40, 199, 111), #81fbb8);
     border-radius: 30px;
     padding-left: 6em;
     padding-right: 6em;
