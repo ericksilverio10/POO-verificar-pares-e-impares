@@ -19,4 +19,6 @@ Como no exemplo abaixo:
 
 <br>
 
+https://ericksilverio10.github.io/POO-verificar-pares-e-impares/
+
 # Espero que vocês tenham gostado! :)
