@@ -3,6 +3,9 @@
 *{
     font-family: Poppins;
 }
+a {
+ text-decoration: none;
+}
 body{
     background: linear-gradient(to right, #fbca88,#ef69ad);
     text-align: center;
@@ -22,6 +25,7 @@ body{
     display: none;
 }
 button{
+    color: black;
     background:linear-gradient(to right, #81fbb8, rgb(40, 199, 111));
     border:none;
     padding: 1em;
